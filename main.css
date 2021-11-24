@@ -1,5 +1,6 @@
 body{
    background: #EBEBEB; 
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -10,15 +11,15 @@ h1{
     color: #1BB4E8;
 }
 
-h2{
+.subtitulo{
     color:  #FFFFFF
 }
 
-ul{
-    list-style-type:none;
+.direita{
+    list-style-type:none;   
 }
 
-li{
+.direita li{
     display: inline;
 }
 
