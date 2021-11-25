@@ -4,7 +4,48 @@ body{
 }
 
 header{
-    background: #21272B
+    background: #21272B;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 50px 300px auto;
+    grid-template-rows: 30px 70px;
+
+
+}
+
+header ul li{
+    color: #FFFFFF;
+}
+
+.grid-header-img{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.grid-header-h1{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.grid-header-h2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.grid-header-ul{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
 }
 
 h1{
@@ -51,7 +92,6 @@ h1{
 
 p{
     width: 500px;
-
 }
 
 .voce{
