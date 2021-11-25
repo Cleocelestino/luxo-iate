@@ -23,10 +23,45 @@ h1{
     display: inline;
 }
 
+.destinos{
+    background: #1BB4E8;
+    display: grid;
+    grid-template-columns: 32px auto;
+    gap: 10px;
+    padding-left: 5px;
+    margin: 20px; 
+    align-items: center;
+}
 .nossa-frota{
     background-color: #C6B07F;
+    display: grid;
+    grid-template-columns: 32px auto;
+    gap: 10px;
+    padding-left: 5px;
+    margin: 20px; 
+    align-items: center;
 }
 
-.destinos{
-    background-color: #1BB4E8;
+.nav-menu a:visited{
+    color: #EBEBEB;
 }
+.nav-menu a:hover{
+    color: #1BB4E8;
+}
+
+p{
+    width: 500px;
+
+}
+
+.voce{
+    color: #EBEBEB;
+        position: absolute;
+        background: black;
+        opacity: 90%;
+        width: calc(100% - 600px);
+        height: 30%;
+        left:600px;
+        top: 60%;
+}
+
