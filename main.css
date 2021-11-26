@@ -100,7 +100,7 @@ h1{
 }
 
 .destynes-image{
-    width: 100wv;
+    width: 100%;
 }
 
 .our-fleet{
@@ -144,8 +144,8 @@ h1{
     color: #EBEBEB;
     background: #21272B;
     opacity: 90%;
-    width: 30vw; 
-    height: 30vh;
+    width: 410px;
+    height: 170px;
     grid-column-start: 2;
     grid-row-start: 2;
     padding: 20px;
