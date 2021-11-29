@@ -86,12 +86,12 @@ h1{
     grid-template-columns: 50% 50%;
     grid-area: articles;
 }
-.destynes{
+.destinies{
     margin: 20px; 
     padding: 20px;
 }
 
-.destynes .title{
+.destinies .title{
     background: #1BB4E8;
     padding-left: 5px;
     align-items: center;
@@ -99,7 +99,7 @@ h1{
     grid-template-columns: 40px auto;
 }
 
-.destynes-image{
+.destinies-image{
     width: 100%;
 }
 
@@ -121,6 +121,7 @@ h1{
     grid-template-columns: 50% auto;
     grid-template-rows: 50% auto;
     gap: 10px;
+
 }
 
 .ships img{
@@ -140,7 +141,7 @@ h1{
     text-decoration: none;
 }
 
-.voce{
+.slogan{
     color: #EBEBEB;
     background: #21272B;
     opacity: 90%;
@@ -149,7 +150,13 @@ h1{
     grid-column-start: 2;
     grid-row-start: 2;
     padding: 20px;
+    font-size: 20px;   
 }
+
+.telephone{
+    color: orange;
+} 
+
 
 footer{
     grid-area: footer;
